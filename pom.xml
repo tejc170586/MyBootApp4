@@ -8,10 +8,10 @@
 		<version>2.2.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>jp.te4a.spring.boot</groupId>
-	<artifactId>MyBootApp4</artifactId>
+	<groupId>jp.te4a.spring.boot.myapp5</groupId>
+	<artifactId>MyBootApp5</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MyBootApp4</name>
+	<name>MyBootApp5</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -19,6 +19,12 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
